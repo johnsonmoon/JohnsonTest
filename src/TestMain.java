@@ -21,7 +21,8 @@ public class TestMain {
         //testSQLServerConnection();
         //testOracleConnection();
         //testToJsonString();
-        HTTPconnectionTest.testCourseVedioUploading();
+        //HTTPconnectionTest.testCourseVedioUploading();
+        HTTPconnectionTest.testDeleteMyCourse();
     }
 
     /**

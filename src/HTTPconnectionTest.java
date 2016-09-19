@@ -12,10 +12,57 @@ import java.util.HashMap;
  * Created by Xuyh at 2016/09/19 下午 03:07.
  */
 public class HTTPconnectionTest {
-    public static String BASE_URL_ACCOUNTS = "http://localhost:8089/rongyi/accounts";
-    public static String BASE_URL_COURSES = "http://localhost:8089/rongyi/courses";
+    public static String BASE_URL_ACCOUNTS = "http://localhost:8095/rongyi/accounts";
+    public static String BASE_URL_COURSES = "http://localhost:8095/rongyi/courses";
     private static HttpUtil httpUtil = new HttpUtil(Platform.WINDOWS);
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+    public static void testDeleteMyCourse(){
+        //获取session
+        httpUtil.getSessionIDFromCookie(BASE_URL_ACCOUNTS);
+
+        //注册账号
+        System.out.println("Input your register name:  ");
+        String Acc_name = "";
+        try{
+            Acc_name = reader.readLine();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("action", "register");
+        params.put("Acc_name", Acc_name);
+        params.put("Acc_pwd", "123456");
+        params.put("Acc_sex", "男");
+        params.put("Acc_loc", "ZJUT");
+        System.out.println(httpUtil.executePostByUsual(BASE_URL_ACCOUNTS, params));
+
+        //发表视频课程
+        String uploadFile = "";
+        System.out.println("Input the vedio directory name: ");
+        try{
+            uploadFile = reader.readLine();
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        HashMap<String, String> params2 = new HashMap<String, String>();
+        params2.put("action", "addCrs");
+        params2.put("Crs_name", "KOL");
+        System.out.println(httpUtil.singleFileUploadWithParameters(BASE_URL_COURSES, uploadFile, MIME_FileType.Video_mp4, params2));
+
+        //删除视频课程
+        System.out.println("Input the Crs_ID that you want to delete: ");
+        String Crs_ID = "";
+        try{
+            Crs_ID = reader.readLine();
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        HashMap<String, String> params3 = new HashMap<String, String>();
+        params3.put("action", "deleteCrs");
+        params3.put("Crs_ID", Crs_ID);
+        System.out.println(httpUtil.executePostByUsual(BASE_URL_COURSES, params3));
+    }
 
     public static void testCourseVedioUploading(){
         //获取session
