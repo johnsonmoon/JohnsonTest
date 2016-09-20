@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c897b1-c586-4431-9355-6389be4172ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VedioUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JohnsonTest/HTTPconnectionTest.class" afterPath="$PROJECT_DIR$/out/production/JohnsonTest/HTTPconnectionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JohnsonTest/TestMain.class" afterPath="$PROJECT_DIR$/out/production/JohnsonTest/TestMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTTPconnectionTest.java" afterPath="$PROJECT_DIR$/src/HTTPconnectionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestMain.java" afterPath="$PROJECT_DIR$/src/TestMain.java" />
@@ -30,11 +33,12 @@
       <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="403">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+                <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
                 <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
                 <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
                 <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -45,12 +49,12 @@
                 <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
                 <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
                 <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-                <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-                <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-                <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-                <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-                <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-                <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+                <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+                <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+                <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+                <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+                <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+                <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
               </folding>
             </state>
           </provider>
@@ -59,11 +63,9 @@
       <file leaf-file-name="HTTPconnectionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HTTPconnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,21 +93,22 @@
         <option value="$PROJECT_DIR$/src/CharacterArrayUtil.java" />
         <option value="$PROJECT_DIR$/src/RandomStringFactory.java" />
         <option value="$PROJECT_DIR$/src/CIServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/VedioUtils.java" />
         <option value="$PROJECT_DIR$/src/HTTPconnectionTest.java" />
         <option value="$PROJECT_DIR$/src/TestMain.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="-8" />
-    <option name="width" value="1314" />
-    <option name="height" value="784" />
+    <option name="x" value="62" />
+    <option name="width" value="1028" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,11 +137,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -156,9 +159,10 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.345977" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager" selected="Application.TestMain">
     <configuration default="false" name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -624,14 +628,17 @@
       <workItem from="1474267267248" duration="41000" />
       <workItem from="1474268799305" duration="8513000" />
       <workItem from="1474292311241" duration="5660000" />
+      <workItem from="1474333080342" duration="10579000" />
+      <workItem from="1474362579693" duration="134000" />
+      <workItem from="1474364011993" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42882000" />
+    <option name="totallyTimeSpent" value="55096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-8" width="1314" height="784" extended-state="6" />
+    <frame x="62" y="0" width="1028" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -642,13 +649,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72797525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54817706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18815592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -663,6 +669,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -689,11 +696,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -704,12 +712,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -718,8 +726,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc7#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc6#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc5#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc4#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPconnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc7#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc6#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc5#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc4#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -731,6 +801,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -741,12 +812,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -758,6 +829,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -768,12 +840,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -785,6 +857,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -795,12 +868,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -812,6 +885,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -822,12 +896,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -839,6 +913,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -849,12 +924,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -866,6 +941,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -876,12 +952,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -893,6 +969,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -903,12 +980,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -920,6 +997,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -930,12 +1008,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -947,6 +1025,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -957,12 +1036,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -974,6 +1053,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -984,12 +1064,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1001,6 +1081,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1011,39 +1092,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc7#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc6#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc5#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc4#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
-            <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1055,6 +1109,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1065,12 +1120,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1089,6 +1144,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1099,12 +1155,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1123,6 +1179,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1133,12 +1190,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1157,6 +1214,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1167,12 +1225,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1191,6 +1249,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1201,12 +1260,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1225,6 +1284,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1235,12 +1295,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1259,6 +1319,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1269,12 +1330,12 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1309,13 +1370,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/VedioUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="403">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testToJsonString#0;class#TestMain#0" expanded="false" />
+            <element signature="method#testToJsonString#0;class#TestMain#0" expanded="false" />
             <element signature="method#testSQLServerConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testOracleConnection#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc8#0;class#TestMain#0" expanded="false" />
@@ -1326,23 +1395,21 @@
             <element signature="method#testFunc2#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc1#0;class#TestMain#0" expanded="false" />
             <element signature="method#testFunc10#0;class#TestMain#0" expanded="false" />
-            <marker date="1474300682880" expanded="true" signature="1843:1890" placeholder="create table... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="2083:2118" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2158:2193" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2221:2256" placeholder="INSERT INTO TABLE1... " />
-            <marker date="1474300682880" expanded="true" signature="2529:2549" placeholder="SELECT * FRO... TABLE1" />
-            <marker date="1474300682880" expanded="true" signature="3449:3467" placeholder="select * fro... dept" />
+            <marker date="1474350719386" expanded="true" signature="2203:2250" ph="create table... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="2443:2478" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2518:2553" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2581:2616" ph="INSERT INTO TABLE1... " />
+            <marker date="1474350719386" expanded="true" signature="2889:2909" ph="SELECT * FRO... TABLE1" />
+            <marker date="1474350719386" expanded="true" signature="3809:3827" ph="select * fro... dept" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPconnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

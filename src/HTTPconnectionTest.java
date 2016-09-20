@@ -12,8 +12,8 @@ import java.util.HashMap;
  * Created by Xuyh at 2016/09/19 下午 03:07.
  */
 public class HTTPconnectionTest {
-    public static String BASE_URL_ACCOUNTS = "http://localhost:8095/rongyi/accounts";
-    public static String BASE_URL_COURSES = "http://localhost:8095/rongyi/courses";
+    public static String BASE_URL_ACCOUNTS = "http://localhost:8089/rongyi/accounts";
+    public static String BASE_URL_COURSES = "http://localhost:8089/rongyi/courses";
     private static HttpUtil httpUtil = new HttpUtil(Platform.WINDOWS);
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -187,7 +187,6 @@ public class HTTPconnectionTest {
         }
         downUtil.downloadByGet(downloadPath + "1.mp4", BASE_URL_COURSES+"?action=getVedioById&Vedio_ID="+Vedio_ID2);
 
-        /*
         String Photo_ID = "";
         try{
             System.out.println("Input photo id to save photo:  ");
@@ -197,7 +196,7 @@ public class HTTPconnectionTest {
         }
         downUtil.downloadByGet(downloadPath + "2photo.jpg", BASE_URL_COURSES+"?action=getPhotoById&Photo_ID="+Photo_ID);
         downUtil.downloadByGet(downloadPath + "2photoThumbnail.jpg", BASE_URL_COURSES+"?action=getThumbnailPhotoById&Photo_ID="+Photo_ID);
-        */
+
 
         //测试删除视频课程
         System.out.println("Input the Crs_ID that you want to delete: ");

@@ -21,8 +21,10 @@ public class TestMain {
         //testSQLServerConnection();
         //testOracleConnection();
         //testToJsonString();
-        //HTTPconnectionTest.testCourseVedioUploading();
-        HTTPconnectionTest.testDeleteMyCourse();
+        HTTPconnectionTest.testCourseVedioUploading();
+        //HTTPconnectionTest.testDeleteMyCourse();
+        //System.out.println(VedioUtils.cutoutVedio("D:\\ffmpeg\\bin\\ffmpeg", "C:\\Users\\Administrator\\Desktop\\test2.mp4", "C:\\Users\\Administrator\\Desktop\\testCut.jpg", 6));
+        //System.out.println(VedioUtils.convertVedio("D:\\ffmpeg\\bin\\ffmpeg", "C:\\Users\\Administrator\\Desktop\\test3.mp4", "C:\\Users\\Administrator\\Desktop\\test3.flv"));
     }
 
     /**
