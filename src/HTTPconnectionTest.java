@@ -13,10 +13,46 @@ import java.util.HashMap;
  * Created by Xuyh at 2016/09/19 下午 03:07.
  */
 public class HTTPconnectionTest {
+    public static void main(String args[]){
+        //testGetCacheCourses();
+        //testGetCachePosts();
+        //testGetCourses(216, 1);
+        //testGetPosts(0, 1);
+    }
+
     public static String BASE_URL_ACCOUNTS = "http://localhost:8089/rongyi/accounts";
     public static String BASE_URL_COURSES = "http://localhost:8089/rongyi/courses";
+    public static String BASE_URL_POSTS = "http://localhost:8089/rongyi/posts";
     private static HttpUtil httpUtil = new HttpUtil(Platform.WINDOWS);
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+    public static void testGetCacheCourses(){
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("action", "getCachedCoursesList");
+        output(httpUtil.executeGet(BASE_URL_COURSES, params));
+    }
+
+    public static void testGetCachePosts(){
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("action", "getCachedPostsList");
+        output(httpUtil.executeGet(BASE_URL_POSTS, params));
+    }
+
+    public static void testGetCourses(int page, int size){
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("action", "getLatestCoursesList");
+        params.put("page", String.valueOf(page));
+        params.put("size", String.valueOf(size));
+        output(httpUtil.executeGet(BASE_URL_COURSES, params));
+    }
+
+    public static void testGetPosts(int page, int size){
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("action", "getLatestPostsList");
+        params.put("page", String.valueOf(page));
+        params.put("size", String.valueOf(size));
+        output(httpUtil.executeGet(BASE_URL_POSTS, params));
+    }
 
     public static void testDeleteMyCourse(){
         //获取session
@@ -211,5 +247,19 @@ public class HTTPconnectionTest {
         params3.put("action", "deleteCrs");
         params3.put("Crs_ID", Crs_ID);
         System.out.println(httpUtil.executePostByUsual(BASE_URL_COURSES, params3));
+    }
+
+    public static void output(String message){
+        System.out.println(message);
+    }
+
+    public static String input(){
+        String value = "";
+        try{
+            value = reader.readLine();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return value;
     }
 }
