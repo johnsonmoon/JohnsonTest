@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="JohnsonWebConnector">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/JohnsonWebConnector.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
