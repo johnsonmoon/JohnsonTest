@@ -35,9 +35,90 @@ public class TestMain {
 		// testOct_13_10_51();
 		// testStringFormatter();
 		// testConvertCookieMap();
-		testSubStringForParentPath("root");
-		testSubStringForParentPath("root/Y_Application");
-		testSubStringForParentPath("root/Y_Application/apache");
+		//testSubStringForParentPath("root");
+		//testSubStringForParentPath("root/Y_Application");
+		//testSubStringForParentPath("root/Y_Application/apache");
+		//testRemoveObjectFromString();
+		//testResortStringList();
+		//testSubString();
+		testResort();
+	}
+
+	public static void testResort(){
+		List<String> templateCodeList = new ArrayList<String>();
+		templateCodeList.add("ada");templateCodeList.add("awe");templateCodeList.add("awtgtv");templateCodeList.add("mjk");
+
+		List<String> codeList = new ArrayList<String>();
+		codeList.add("awe");codeList.add("awtgtv");codeList.add("ada");codeList.add("mjk");
+
+		if (templateCodeList == null)
+			return;
+		if (templateCodeList.size() != codeList.size())
+			return;
+		for (String check : codeList) {
+			if (!templateCodeList.contains(check)) {
+				return;
+			}
+		}
+		output(codeList.toString());
+	}
+
+	public static void testSubString(){
+		String targetParentPath = "Y_root/ajamaj/adhugi";
+		String source = "Y_root/adadw/awdew/dcac/akm";
+		String PATH_SPLITOR = "/";
+		String newPath = targetParentPath + PATH_SPLITOR
+				+ source.substring(source.lastIndexOf(PATH_SPLITOR) + 1);
+		output(newPath);
+	}
+
+	public static void testResortStringList(){
+		List<String> stringList = new ArrayList<String>();
+		stringList.add("a");
+		stringList.add("b");
+		stringList.add("c");
+		stringList.add("d");
+		stringList.add("e");
+		stringList.add("f");
+		output(stringList.toString());
+
+		String source = "a";
+		String target = "d";
+
+		List<String> childPathList = stringList;
+		if (childPathList == null || childPathList.size() < 0)
+			return;
+		if (!childPathList.contains(source) || !childPathList.contains(target))
+			return;
+		List<String> newList = new ArrayList<String>(childPathList.size());
+		for (String index : childPathList) {
+			if (index.equals(source))
+				continue;
+			if (index.equals(target)) {
+				newList.add(target);
+				newList.add(source);
+				continue;
+			}
+			newList.add(index);
+		}
+		output(newList.toString());
+	}
+
+	public static void testRemoveObjectFromString(){
+		String path = "root/jkjk/lolo";
+		List<String> list = new ArrayList<String>();
+		list.add("root/nm");
+		list.add("root/jkjk/lolo");
+		list.add("root/nm/ll");
+		list.add("root");
+		output(list.toString());
+		for(String l : list){
+			if(l.equals(path)){
+				list.remove(l);
+				break;
+			}
+		}
+		output(list.toString());
 	}
 
 	public static void testSubStringForParentPath(String path) {

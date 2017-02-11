@@ -3,4 +3,43 @@
   <groupId>xuyihao</groupId>
   <artifactId>JohnsonTest</artifactId>
   <version>0.0.1</version>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/it.cnr.isti.domoware.tinyos/tinyos-java -->
+    <dependency>
+      <groupId>it.cnr.isti.domoware.tinyos</groupId>
+      <artifactId>tinyos-java</artifactId>
+      <version>2.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/it.cnr.isti.domoware.tinyos/tinyos -->
+    <dependency>
+      <groupId>it.cnr.isti.domoware.tinyos</groupId>
+      <artifactId>tinyos</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/it.cnr.isti.domoware.tinyos/tinyos-core -->
+    <dependency>
+      <groupId>it.cnr.isti.domoware.tinyos</groupId>
+      <artifactId>tinyos-core</artifactId>
+      <version>1.1.14</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/it.cnr.isti.domoware.tinyos/tinyos-core-rxtx -->
+    <dependency>
+      <groupId>it.cnr.isti.domoware.tinyos</groupId>
+      <artifactId>tinyos-core-rxtx</artifactId>
+      <version>1.1.15.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/it.cnr.isti.domoware.tinyos/tinyos-bundle -->
+    <dependency>
+      <groupId>it.cnr.isti.domoware.tinyos</groupId>
+      <artifactId>tinyos-bundle</artifactId>
+      <version>2.1.0-0001</version>
+    </dependency>
+
+  </dependencies>
+
 </project>
