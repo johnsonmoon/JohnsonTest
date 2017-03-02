@@ -1,4 +1,4 @@
-package xuyihao.JohnsonTest;
+package xuyihao.JohnsonTest.utils;
 import java.util.Random;
 
 /**

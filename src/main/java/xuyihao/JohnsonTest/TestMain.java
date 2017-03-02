@@ -1,6 +1,7 @@
 package xuyihao.JohnsonTest;
 
-import javax.xml.transform.Result;
+import xuyihao.JohnsonTest.utils.RandomStringFactory;
+
 import java.io.*;
 import java.sql.*;
 import java.util.*;

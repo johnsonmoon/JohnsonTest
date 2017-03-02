@@ -1,4 +1,4 @@
-package xuyihao.JohnsonTest;
+package xuyihao.JohnsonTest.utils;
 
 import java.io.File;
 import java.io.IOException;

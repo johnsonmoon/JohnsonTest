@@ -1,4 +1,4 @@
-package xuyihao.JohnsonTest;
+package xuyihao.JohnsonTest.utils;
 /**
  * Created by Administrator on 2016/07/18.
  */
